@@ -1,4 +1,4 @@
-@media(max-width: 700px) {
+@media(max-width: 1060px) {
 
     body {
         display: flex;
@@ -11,8 +11,9 @@
     }
 
     .banner {
-        background-image: url('https://imagensfree.com.br/wp-content/uploads/2021/10/the-batman-2022-reddit.jpg');
-        min-height: 600px;
+        background: url('https://imagensfree.com.br/wp-content/uploads/2021/10/the-batman-2022-reddit.jpg') no-repeat center;
+        background-size: cover;
+        /* min-height: 600px; */
     }
 
     .trailer-container {
@@ -46,7 +47,7 @@
     }
 
     .trailer-container .sinopse .button {
-        min-width: 100%;
+        min-width: 95%;
         min-height: 50px;
         gap: 20px;
        
@@ -69,5 +70,7 @@
 
     footer nav.navegacao-rodape {
         display: block;
-    }
+        
+}
+
 }
